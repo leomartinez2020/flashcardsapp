@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="output.css" rel="stylesheet">
+    <title>Flashcardsapp</title>
+</head>
+<body class="bg-slate-200">
+    <header>
+        <h1>Lab Flashcard</h1>
+    </header>
+    <div id="target1" class="flip-card">
+        <div id="target2" class="flip-card-inner">
+          <div id="flip-card-front" class="flip-card-front">
+            <h1 style="width:300px;height:300px;">My Flashcard</h1>
+        </div>
+        <div class="flip-card-back">
+            <img id="lab-img" src="./assets/embudo-decantacion.png" alt="Avatar" style="width:300px;height:400px;">
+          </div>
+        </div>
+        <p class="text-center text-blue-500 text-4xl font-bold" id="counter">1</p>
+        <div class="flex gap-4 my-4">
+            <button id="button-flip" class="button">Flip</button>
+            <button id="button-reveal" class="button">Reveal</button>
+            <button id="button-next" class="button">Next</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
